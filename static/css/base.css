@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
+
+body {
+    font: 14px/1.5 'Source Sans Pro';
+}
+
+
+.section {
+    max-width: 100vw;
+    max-height: 50px;
+    font-size: 18px;
+}
+
+.section-nav {
+    background: lightblue;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 1em ;
+}
+
+
+
+
+.section-nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+
+}
+
+
+.section-nav ul li {
+    list-style: none;
+    padding: 1em;
+}
+
+.section-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: #f5f7fa;
+}
+

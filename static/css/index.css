@@ -1,0 +1,12 @@
+.fullscreen-image {
+  height: calc(100vh - 150px); /* Adjust 80px to match nav height */
+  width: calc(100vw - 15px);
+  overflow: hidden;
+}
+
+.fullscreen-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}

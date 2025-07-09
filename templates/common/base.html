@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bulgaria Field Target</title>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+</head>
+<body>
+  <div class="section section-nav">
+		<nav>
+			<ul>
+                <li><a href="#">See all competitions thru the year</a></li>
+				<li><a href="#">Create competition</a></li>
+				<li><a href="#">Sign up for competition</a></li>
+				<li><a href="#">Profile details</a></li>
+				<li><a href="#">Logout</a></li>
+				<li><a href="#">Login</a></li>
+			</ul>
+
+		</nav>
+  </div>
+
+{% block content %}
+  {% endblock %}
+  <footer>
+
+    <div class="bottom">
+      <p>© 2025 - Powered by Papazoff. All rights reserved.</p>
+    </div>
+
+  </footer>
+</body>
+</html>
