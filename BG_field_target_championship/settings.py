@@ -49,9 +49,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'BG_field_target_championship.common',
+    'BG_field_target_championship.equipment',
     'BG_field_target_championship.competition',
-    'BG_field_target_championship.accounts'
+    'BG_field_target_championship.accounts',
+    'BG_field_target_championship.common',
+    'BG_field_target_championship.hotels'
 ]
 
 MIDDLEWARE = [

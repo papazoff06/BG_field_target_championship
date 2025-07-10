@@ -8,16 +8,20 @@
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
     <link rel="stylesheet" href="{% static 'css/index.css' %}">
 </head>
+
 <body>
   <div class="section section-nav">
 		<nav>
 			<ul>
-                <li><a href="#">See all competitions thru the year</a></li>
+                {% if not user %}
 				<li><a href="#">Create competition</a></li>
 				<li><a href="#">Sign up for competition</a></li>
 				<li><a href="#">Profile details</a></li>
 				<li><a href="#">Logout</a></li>
+                    {% else %}
+                <li><a href="#">See all competitions through the year</a></li>
 				<li><a href="#">Login</a></li>
+                {% endif %}
 			</ul>
 
 		</nav>
